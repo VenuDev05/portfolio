@@ -17,14 +17,14 @@ function Hero() {
 
     // Animate title
     tl.from(titleRef.current, {
-      opacity: 0.5,
+      opacity: 1,
       y: 30,
       duration: 0.8,
     })
       .from(
         subtitleRef.current,
         {
-          opacity: 0.5,
+          opacity: 1,
           y: 20,
           duration: 0.6,
         },
@@ -33,7 +33,7 @@ function Hero() {
       .from(
         descriptionRef.current,
         {
-          opacity: 0.5,
+          opacity: 1,
           y: 20,
           duration: 0.6,
         },
@@ -42,7 +42,7 @@ function Hero() {
       .from(
         ctaRef.current,
         {
-          opacity: 0.5,
+          opacity: 1,
           y: 20,
           duration: 0.6,
         },
