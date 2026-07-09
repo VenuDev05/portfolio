@@ -1,0 +1,113 @@
+.skills {
+  background-color: #f5f7fa;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.skill-item {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(91, 124, 153, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(91, 124, 153, 0.05);
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(91, 124, 153, 0.12);
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.skill-name {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 1rem;
+}
+
+.skill-percentage {
+  font-weight: 700;
+  color: #5b7c99;
+  font-size: 0.95rem;
+}
+
+.skill-progress {
+  width: 100%;
+  height: 6px;
+  background-color: #e8eef5;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.skill-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #5b7c99 0%, #7a9db5 100%);
+  border-radius: 3px;
+  width: 0%;
+  transition: width 0.5s ease;
+}
+
+.skills-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.highlight-box {
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(91, 124, 153, 0.1);
+  border-left: 4px solid #5b7c99;
+  transition: all 0.3s ease;
+}
+
+.highlight-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(91, 124, 153, 0.15);
+}
+
+.highlight-box h3 {
+  font-size: 1.3rem;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.highlight-box p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .skill-item {
+    padding: 20px;
+  }
+
+  .skills-highlights {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .highlight-box {
+    padding: 25px;
+  }
+}
