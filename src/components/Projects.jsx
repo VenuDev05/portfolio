@@ -3,6 +3,12 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '../styles/projects.css';
 
+import localview from "../file/localview.png";
+import amazon from "../file/amazon.png";
+import task from "../file/task.png";
+import weather from "../file/weather.png";
+import calculator from "../file/calculator.png";
+
 gsap.registerPlugin(ScrollTrigger);
 
 function Projects() {
@@ -15,7 +21,7 @@ function Projects() {
       description:
         'A service-based platform that helps customers book helpers for various tasks. Built with a focus on user experience and seamless booking process.',
       technologies: ['React.js', 'Firebase', 'Realtime Database', 'Authentication'],
-      image: 'src/file/localview.png',
+      image: localview,
       link: 'https://service-management-ten.vercel.app/',
       repo:'https://github.com/VenuDev05/service-management.git'
     },
@@ -24,7 +30,7 @@ function Projects() {
       description:
         'Full-stack e-commerce application with product catalog, shopping cart, and payment integration. Features include user authentication, order management, and admin dashboard.',
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js'],
-      image: 'src/file/amazon.png',
+      image: amazon,
       link: 'https://amazon-eight-ruby.vercel.app/',
       repo:'https://github.com/VenuDev05/Amazon.git'
     },
@@ -33,7 +39,7 @@ function Projects() {
       description:
         'Collaborative task management tool with real-time updates, team workspaces, and project tracking. Includes Priority and Date/Time.',
       technologies: ['HTML5', 'CSS3', 'JavaScript'],
-      image: 'src/file/task.png',
+      image: task,
       link: 'https://venudev05.github.io/To-Do-list/',
       repo:'https://github.com/VenuDev05/To-Do-list.git'
     },
@@ -42,7 +48,7 @@ function Projects() {
       description:
         'Real-time weather application with location-based forecasting. Features include interactive maps, weather alerts, and historical data visualization.',
       technologies: ['HTML5', 'CSS3', 'JavaScript'],
-      image: 'src/file/weather.png',
+      image: weather,
       link: 'https://venudev05.github.io/weather/',
       repo:'https://github.com/VenuDev05/weather.git'
     },
@@ -51,7 +57,7 @@ function Projects() {
       description:
         'A real time calculator with dynamic functional flow. Implemented beautiful color combinations and designed professionally.',
       technologies: ['HTML5', 'CSS3', 'JavaScript'],
-      image: 'src/file/calculator.png',
+      image: calculator,
       link: 'https://venudev05.github.io/calculator/',
       repo:'https://github.com/VenuDev05/calculator.git'
     },
