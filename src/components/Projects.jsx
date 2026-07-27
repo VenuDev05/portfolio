@@ -5,9 +5,8 @@ import '../styles/projects.css';
 
 import localview from "../file/localview.png";
 import amazon from "../file/amazon.png";
-import task from "../file/task.png";
 import weather from "../file/weather.png";
-import calculator from "../file/calculator.png";
+import manufacture from "../file/manufacture.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -35,13 +34,13 @@ function Projects() {
       repo:'https://github.com/VenuDev05/Amazon.git'
     },
     {
-      title: 'Task Management',
+      title: 'Manufacture',
       description:
-        'Collaborative task management tool with real-time updates, team workspaces, and project tracking. Includes Priority and Date/Time.',
-      technologies: ['HTML5', 'CSS3', 'JavaScript'],
-      image: task,
-      link: 'https://venudev05.github.io/To-Do-list/',
-      repo:'https://github.com/VenuDev05/To-Do-list.git'
+        'Developed a modern Parallax Manufacturing website. It showcases the companys products, services, and manufacturing capabilities with an engaging parallax scrolling experience to enhance user interaction and visual appeal.',
+      technologies: ['React.js', 'Node.js', 'Json'],
+      image: manufacture,
+      link: 'https://manifacture.vercel.app/',
+      repo:'https://github.com/VenuDev05/manifacture.git'
     },
     {
       title: 'Weather Application',
@@ -51,15 +50,6 @@ function Projects() {
       image: weather,
       link: 'https://venudev05.github.io/weather/',
       repo:'https://github.com/VenuDev05/weather.git'
-    },
-    {
-      title: 'Calculator',
-      description:
-        'A real time calculator with dynamic functional flow. Implemented beautiful color combinations and designed professionally.',
-      technologies: ['HTML5', 'CSS3', 'JavaScript'],
-      image: calculator,
-      link: 'https://venudev05.github.io/calculator/',
-      repo:'https://github.com/VenuDev05/calculator.git'
     },
   ];
 
