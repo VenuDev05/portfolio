@@ -7,6 +7,8 @@ import localview from "../file/localview.png";
 import amazon from "../file/amazon.png";
 import weather from "../file/weather.png";
 import manufacture from "../file/manufacture.png"
+import food from "../file/food.png"
+import job from "../file/job.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -22,7 +24,7 @@ function Projects() {
       technologies: ['React.js', 'Firebase', 'Realtime Database', 'Authentication'],
       image: localview,
       link: 'https://service-management-ten.vercel.app/',
-      repo:'https://github.com/VenuDev05/service-management.git'
+      repo: 'https://github.com/VenuDev05/service-management.git'
     },
     {
       title: 'E-Commerce Platform',
@@ -31,7 +33,7 @@ function Projects() {
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js'],
       image: amazon,
       link: 'https://amazon-eight-ruby.vercel.app/',
-      repo:'https://github.com/VenuDev05/Amazon.git'
+      repo: 'https://github.com/VenuDev05/Amazon.git'
     },
     {
       title: 'Manufacture',
@@ -40,7 +42,25 @@ function Projects() {
       technologies: ['React.js', 'Node.js', 'Json'],
       image: manufacture,
       link: 'https://manifacture.vercel.app/',
-      repo:'https://github.com/VenuDev05/manifacture.git'
+      repo: 'https://github.com/VenuDev05/manifacture.git'
+    },
+    {
+      title: 'Banana Leaf',
+      description:
+        'A modern food ordering website that lets customers browse menus, add items to their cart, and place orders online with ease. It provides a fast, user-friendly experience with real-time order management for both customers and restaurant staff.',
+      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+      image: food,
+      link: 'https://food-resturant-ten.vercel.app/',
+      repo: 'https://github.com/VenuDev05/food-resturant.git'
+    },
+    {
+      title: 'JobHub',
+      description:
+        'JobHub is a modern job portal that connects job seekers with employers through a simple and user-friendly platform. It enables users to search, apply for jobs, and manage applications efficiently.',
+      technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+      image: job,
+      link: 'https://job-h83kvs6ld-gsvofficials-projects.vercel.app/',
+      repo: 'https://github.com/VenuDev05/job-UI.git'
     },
     {
       title: 'Weather Application',
@@ -49,7 +69,7 @@ function Projects() {
       technologies: ['HTML5', 'CSS3', 'JavaScript'],
       image: weather,
       link: 'https://venudev05.github.io/weather/',
-      repo:'https://github.com/VenuDev05/weather.git'
+      repo: 'https://github.com/VenuDev05/weather.git'
     },
   ];
 
