@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { TextPlugin } from 'gsap/TextPlugin';
 import '../styles/hero.css';
-import profile from "../file/profile.jpeg"
+import profile from "../file/profile.png"
 
 gsap.registerPlugin(TextPlugin);
 
