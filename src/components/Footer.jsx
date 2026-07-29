@@ -21,7 +21,10 @@ function Footer() {
   }, []);
 
   const scrollToTop = () => {
-    gsap.to(window, { scrollTo: 0, duration: 0.8 });
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   const currentYear = new Date().getFullYear();
