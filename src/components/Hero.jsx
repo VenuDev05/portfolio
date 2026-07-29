@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { TextPlugin } from 'gsap/TextPlugin';
 import '../styles/hero.css';
+import profile from "../file/profile.jpeg"
 
 gsap.registerPlugin(TextPlugin);
 
@@ -100,15 +101,7 @@ function Hero() {
         </div>
 
         <div className="hero-visual">
-          <div className="floating-card card-1">
-            <span>React.js</span>
-          </div>
-          <div className="floating-card card-2">
-            <span>Node.js</span>
-          </div>
-          <div className="floating-card card-3">
-            <span>MongoDB</span>
-          </div>
+           <img src={profile} alt="profile image" />
           <div className="animated-shape"></div>
         </div>
       </div>

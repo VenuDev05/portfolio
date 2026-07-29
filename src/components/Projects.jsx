@@ -59,7 +59,7 @@ function Projects() {
         'JobHub is a modern job portal that connects job seekers with employers through a simple and user-friendly platform. It enables users to search, apply for jobs, and manage applications efficiently.',
       technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
       image: job,
-      link: 'https://job-h83kvs6ld-gsvofficials-projects.vercel.app/',
+      link: 'https://job-ui-umber.vercel.app/',
       repo: 'https://github.com/VenuDev05/job-UI.git'
     },
     {
