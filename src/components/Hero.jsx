@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import { TextPlugin } from 'gsap/TextPlugin';
 import '../styles/hero.css';
 import profile from "../file/profile.png"
+import res from "../file/venu-resume.pdf"
 
 gsap.registerPlugin(TextPlugin);
 
@@ -89,11 +90,11 @@ function Hero() {
             >
               View My Work
             </button>
-            <button
+            <button 
               className="btn btn-secondary"
-              onClick={() => handleScrollToSection('#contact')}
+              onClick={() => handleScrollToSection('#')}
             >
-              <a href="src/file/venu resume.pdf" target='#_blank'>
+              <a href={res} target='#_blank'>
               Hire me
               </a>
             </button>
