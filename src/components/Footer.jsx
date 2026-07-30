@@ -62,10 +62,14 @@ function Footer() {
               <a href="mailto:venu.dev63@gmail.com">Email</a>
             </li>
             <li>
-              <a href="#">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/venu03/" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+              </a>
             </li>
             <li>
-              <a href="#">GitHub</a>
+              <a href="https://github.com/VenuDev05" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
             </li>
           </ul>
         </div>
